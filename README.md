@@ -141,11 +141,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
-## License
-
-[MIT](LICENSE)
-
----
+ 
 
 ## Credits
 
@@ -155,12 +151,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
-## Screenshots
-
-_Add screenshots or GIFs here to showcase the UI and features._
-
----
-
+ 
 ## Contact
 
-For questions or support, please contact [your-email@example.com].
+For questions or support, please contact [ny09346@gmail.com].
