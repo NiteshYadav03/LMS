@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { AppContext } from '../../context/AppContext'
 import { dummyDashboardData, assets } from '../../assets/assets'
 import Loading from '../../components/student/Loading'
+import axios from 'axios'
 const Dashboard = () => {
 
     const {currency,backendUrl,isEducator,getToken}= useContext(AppContext)
@@ -10,7 +11,7 @@ const Dashboard = () => {
     const fetchDashboardData = async () =>{
       try {
         const token = await getToken()
-        const {data} = await fetch(`${backendUrl}/api/educator/dashboard`,{
+        const {data} = await axios.get(`${backendUrl}/api/educator/dashboard`,{
           headers: { Authorization: `Bearer ${token}`}
         })
 
